@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 offset-md-4">
+      <h1>Reserva de habitación</h1>
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="roomtype">Cliente:</label>
+              <select class="form-control" id="roomtype" name="roomtype">
+                <option value="single">Cliente1</option>
+                <option value="double">Cliente2</option>
+                <option value="suite">Cliente3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="roomtype">Habitacion:</label>
+              <select class="form-control" id="roomtype" name="roomtype">
+                <option value="single">Habitacion1</option>
+                <option value="double">Habitacion2</option>
+                <option value="suite">Habitacion3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="checkin">Fecha de entrada:</label>
+              <input
+                type="date"
+                class="form-control"
+                id="checkin"
+                name="checkin"
+              />
+            </div>
+            <div class="form-group">
+              <label for="checkout">Fecha de salida:</label>
+              <input
+                type="date"
+                class="form-control"
+                id="checkout"
+                name="checkout"
+              />
+            </div>
+            <div class="form-group">
+              <label for="roomtype">Tipo de habitación:</label>
+              <select class="form-control" id="roomtype" name="roomtype">
+                <option value="single">Individual</option>
+                <option value="double">Doble</option>
+                <option value="suite">Suite</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Reservar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
